@@ -33,3 +33,9 @@ public int multiply(int a, int b) {
     }
     return result;
 }
+--------------------------------------------------------------------
+Sum (no carry) : a ^ b
+Carry : (a & b) << 1
+Negative (-a) : ~a + 1
+Double (2a) : a << 1
+Halve (a/2) : a >> 1
